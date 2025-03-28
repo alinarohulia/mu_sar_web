@@ -4,10 +4,10 @@ MU SAR - University of Missouri Structure–Activity Relationship
 This project explains how to run a web application on a local machine using Visual Studio Code to populate MU SAR database for Dr. Kireev's lab.
 
 ## Step 1: Download file "WebApp GitHub.zip" and extract all files. 
-![Exctracted files](images/folder content.png)
+![Exctracted files](images/folder_content.png)
 
 ## Step 2: Open folder with exctracted files in Visual Studio Code.
-![Open folder in Visual Studio](images/open folder.png)
+![Open folder in Visual Studio](images/open_folder.png)
 
 ## Step 3: In terminal in Visual Studio type commands:
 ```py -m venv .venv```
@@ -25,7 +25,7 @@ pip install flask
 pip install rdkit
 ```
 These commands should install neccessary libraries and remove lines under their names: 
-![Installed libraries](images/installed libraries.png)
+![Installed libraries](images/installed_libraries.png)
 
 ## Step 5: Run web application
 To connect to the database by using app.py, you need to enter your username and password for the database in this part of the code:
@@ -35,7 +35,7 @@ All passwords were assigned by IT department to members of Dr. Kireev's lab and 
 Run this command in Visual Studio terminal:
 ```python app.py```
 Press CTRL + click on the http:// link
-![Run web application](images/run app.png)
+![Run web application](images/run_app.png)
 
 ## Step 6: Add, update, or remove data using the web application
 ![Work with database](images/web.png)
