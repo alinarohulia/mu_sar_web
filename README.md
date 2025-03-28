@@ -11,22 +11,27 @@ This project explains how to run a web application on a local machine using Visu
 
 ## Step 3: In terminal in Visual Studio type commands:
 
-```py -m venv .venv```
+```
+py -m venv .venv
 
-```.venv\Scripts\activate```
+.venv\Scripts\activate
+```
 
 ![Create and activate environment](images/environment.png)
 
 ## Step 4: Download neccessary libraries in the activated previously environment.
 Currently several libraries are underlined:
 ![Libraries](images/libraries.png)
+
 One by one type next commands into terminal in Visual Studio:
+
 ```
 pip install mysql-connector-python
 pip install pandas
 pip install flask
 pip install rdkit
 ```
+
 These commands should install neccessary libraries and remove lines under their names: 
 ![Installed libraries](images/installed_libraries.png)
 
@@ -36,7 +41,9 @@ To connect to the database by using app.py, you need to enter your username and 
 All passwords were assigned by IT department to members of Dr. Kireev's lab and you need to reach out to Alina at arbcn@umsystem.edu to receive them.
 
 Run this command in Visual Studio terminal:
+
 ```python app.py```
+
 Press CTRL + click on the http:// link
 ![Run web application](images/run_app.png)
 
