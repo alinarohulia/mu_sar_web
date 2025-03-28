@@ -10,8 +10,11 @@ This project explains how to run a web application on a local machine using Visu
 ![Open folder in Visual Studio](images/open_folder.png)
 
 ## Step 3: In terminal in Visual Studio type commands:
+
 ```py -m venv .venv```
+
 ```.venv\Scripts\activate```
+
 ![Create and activate environment](images/environment.png)
 
 ## Step 4: Download neccessary libraries in the activated previously environment.
