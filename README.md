@@ -36,10 +36,6 @@ These commands should install neccessary libraries and remove lines under their 
 ![Installed libraries](images/installed_libraries.png)
 
 ## Step 5: Run web application
-To connect to the database by using app.py, you need to enter your username and password for the database in this part of the code:
-![Connect to database](images/connection.png)
-All passwords were assigned by IT department to members of Dr. Kireev's lab and you need to reach out to Alina at arbcn@umsystem.edu to receive them.
-
 Run this command in Visual Studio terminal:
 
 ```python app.py```
